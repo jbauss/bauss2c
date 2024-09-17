@@ -1,0 +1,206 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(26,34, 44);
+    color: white;
+}
+
+.content {
+    background-color: white;
+    color: black;
+    flex:1;
+}
+
+footer {
+    padding-top: 0.5em;
+    min-height: 1.5em;
+    text-align: center;
+    color: white;
+    
+    a {
+        color: white;
+    }
+}
+
+h1 {
+    margin: 0;
+    margin: 1em;
+    font-size: 5em;
+    text-align: center;
+    line-height: 1em;
+    margin-bottom: 0.4em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+h3 {
+    font-size: 1.8em;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.highlight-box {
+    background-color: rgb(26,34, 44);
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    border-radius: 1em;
+    display: flex;
+    align-content: center;
+}
+
+.highlight-box p {
+    font-family: 'Roboto Slab', sans-serif;
+}
+
+.highlight-box .bx {
+    font-size: 5em;
+}
+
+.btn-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.btn {
+    color: white;
+    background-color: rgb(79, 85, 104);
+    border: none;
+    border-radius: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-right: 0.8em;
+    margin-bottom: 0.8em;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    text-decoration: none;
+    max-height: 35px;
+    height: 35px;
+    align-content: center;
+    font-size: 1.2em;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    opacity: 0.5;
+}
+
+.btn-linkedin {
+    @extend .btn;
+    background-color: rgb(10, 102, 194);
+}
+
+.header {
+    color: white;
+    display: block;
+    width: 100%;
+}
+
+.header-subtitle {
+    font-size: 1.5em;
+    margin-bottom: 1em;    
+    font-family: 'Roboto Slab';
+    display: block;
+}
+
+.main-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-width: 500px;
+    max-height: 500px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#particles-js {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60vh;
+
+}
+
+.content-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content-wrapper {
+    max-width: 65em;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.image-left {
+    max-width: 50%;
+    margin-right: 2em;
+    float: left;
+}
+
+.image-right {
+    max-width: 50%;
+    margin-left: 2em;
+    float: right;
+}
+
+@media all and (min-width: 1000px) {
+    .content    { flex: 3 0px; }
+    .content-wrapper {
+        margin-left: calc(100vw - 100%);
+    }
+}
+
+@media all and (max-width: 999px) {
+    .content-wrapper {
+        display: flex;
+        flex-flow: column;
+        padding-left: 1.5em;
+        padding-right: 1em;
+    }
+
+    .content {
+        margin-top: 0;
+    }
+
+    .main-logo {
+        max-width: 300px;
+        max-height: 300px;
+    }
+}
