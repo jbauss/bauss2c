@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+Allow: /
+Sitemap: https://jbauss.github.io/pages_test/sitemap.xml

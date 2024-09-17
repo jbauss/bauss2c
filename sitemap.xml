@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://jbauss.github.io/pages_test/</loc>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/blog/</loc>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/blog/first/</loc>
+        <lastmod>2019-11-27</lastmod>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/blog/second/</loc>
+        <lastmod>2019-11-28</lastmod>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/blog/third/</loc>
+        <lastmod>2024-04-02</lastmod>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/dienstleistungen/</loc>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/impressum/</loc>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/kontakt/</loc>
+    </url>
+    <url>
+        <loc>https://jbauss.github.io/pages_test/ueber-uns/</loc>
+    </url>
+</urlset>
